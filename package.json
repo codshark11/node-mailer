@@ -1,0 +1,25 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "description": "node batch-mailing project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-mailer"
+  },
+  "keywords": [
+    "node",
+    "mail"
+  ],
+  "author": "codshark11",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.10",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15"
+  }
+}
