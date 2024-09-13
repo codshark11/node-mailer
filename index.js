@@ -1,9 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 const mailer = require("./utils/mailer");
+require('dotenv').config();
 
 let count = 0;
-const subject = "Urgent Assistance Request";
+const subject = process.env.SUBJECT;
 
 async function main() {
     const content = fs.readFileSync("./email.html", 'utf8');
